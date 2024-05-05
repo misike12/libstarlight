@@ -58,3 +58,7 @@ Here is an example:
         - **`(architecture): [pattern1, pattern2, ...]`**
         - **`architecture`** is a key. Possible values are `amd64`, `i386`, `arm` and `arm64`.
         - **`pattern(N)`** is a list consisting of two elements. First element is the pattern to be found, and second is the replace pattern. These should all be valid hex patterns.
+You can reference the example above for writing `.slpatch` files.
+
+Keep in mind that you can also check the source for `slpatch.rs` and write your own valid classes if you wish to not work with the `.slpatch` format, although it is not supported and not recommended.
+
